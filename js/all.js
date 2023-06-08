@@ -51,10 +51,10 @@ $(document).ready(function() {
 //gsap.fromTo('選擇器',{A點},{B點})
 gsap.fromTo(".slogn-box h1",{
     opacity: 0, //透明度為0
-    y: '-=100' // 從CSS預設的x軸減去100px
+    y: '-=150' // 從CSS預設的x軸減去100px
   },{
     opacity: 1, //透明度為1
-    y: '+=100', // 從CSS預設的x軸加上200px
+    y: '+=150', // 從CSS預設的x軸加上200px
     duration: 0.8 //動畫時間1.5秒
   }
 );
@@ -64,7 +64,7 @@ gsap.fromTo(".slogn-box .btn",{
     y: '+=150'
   },{
     opacity: 1,
-    y: '-=100',
+    y: '-=150',
     duration: 0.8
   }
 );
