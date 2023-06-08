@@ -1,0 +1,528 @@
+/* pad Horizontal =========================================== */
+@media screen and (max-width:960px){
+  .header{
+    padding: 0 20px;
+    padding-bottom: 60px;
+  }
+
+  .topbar{
+    padding: 15px 5px;
+
+    a.logo{
+      display: block;
+      flex: 1;
+
+      img{
+        width: 150px;
+      }
+    }
+  }
+
+  .slogn-box{
+    h1{
+      font-size: 70px;
+    }
+  }
+
+  .main-box{
+    h2.sub-title-1{
+      width: 30%;
+      font-size: 28px;
+      line-height: 1.5;
+    }
+    p.sub-title-2{
+      width: 70%;
+      font-size: 33px;
+      line-height: 1.5;
+    }
+  }
+
+  .spotligth-box{
+    margin: 100px 0;
+  
+    .item{
+      padding: 60px 22px;
+    }
+  }
+
+  .sponsor-box{
+    margin: 100px 0;
+  }
+
+  .container{
+    padding: 100px 20px;
+    border-radius: 80px;
+    margin-bottom: 60px;
+  }
+  .content{
+
+    h2{
+      font-size: 70px;
+    }
+
+    .search-box {
+      margin-bottom: 15px;
+    }
+
+    .filter-box{
+      display: block;
+
+      a.filter{
+        float: left;
+        margin-bottom: 20px;
+        text-align: center;
+
+        span{
+          display: inline-block;
+          margin-right: 5px;
+        }
+
+        img{
+          width: 17px;
+          margin: -5px 0 0 3px;
+          vertical-align: middle;
+        }
+      }
+
+      .dropdown{
+        float: right;
+        margin-bottom: 20px;
+
+        .dropdown-btn {
+
+          i {
+            right: 20px;
+          }
+        }
+      }
+
+      .menubar{
+        clear: both;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 10px;
+
+        a{
+          display: inline-block;
+
+          &:hover{
+            background-color: #F2F2F2;
+            color: #000;
+          }
+        }
+
+        .active{
+          background-color: #F2F2F2;
+          color: #000;
+        }
+      }
+    }
+
+    .card-content{
+      ppadding: 20px 0;
+    }
+
+    .card{
+      width: 31.5%;
+    }
+  }
+
+  .common-problem{
+    margin: 100px 0;
+  }
+
+  .slogn-box2{
+    margin: 0 0 100px 0x;
+  }
+
+  .submenu-box{
+    margin: 100px 0 0 0;
+  }
+
+  .footer{
+    margin: 0 20px 30px 20px;
+  }
+
+}
+
+
+/* pad Vertical =========================================== */
+@media screen and (max-width:768px){
+
+  .header{
+    padding-bottom: 60px;
+  }
+
+  .topbar{
+    padding: 15px 5px;
+
+    a.logo{
+      display: block;
+      flex: 1;
+
+      img{
+        width: 150px;
+      }
+    }
+  }
+
+  .slogn-box{
+
+    h1{
+      font-size: 70px;
+    }
+  }
+
+  .main-box{
+    margin-bottom: 30px;
+
+    .sub-title-1{
+      width: 33%;
+    }
+    .sub-title-2{
+      width: 67%;
+      font-size: 28px;
+    }
+  }
+
+  .spotligth-box{
+    margin: 60px 0;
+
+    .item{
+      width: 30%;
+      border: 1px solid #666;
+      border-radius: 20px;
+      padding: 30px 20px;
+      color: #F2F2F2;
+      flex-grow: 1;
+      margin: 5px;
+    }
+  }
+
+  .sponsor-box{
+    margin: 60px 0;
+
+    .sponsor-logo{
+      display: blok;
+      width: 100%;
+
+      img{
+        margin: 5px;
+        display: block;
+      }
+
+    }
+  }
+
+  .feedback-box{
+    margin: 0;
+    flex-wrap: wrap;
+
+    .feedback-card{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .container{
+    padding: 80px 20px;
+    border-radius: 80px;
+    margin-bottom: 60px;
+  }
+
+  .content{
+
+    h2{
+      font-size: 60px;
+      line-height: 1.2;
+    }
+
+    .card-content{
+      ppadding: 20px 0;
+
+      .card{
+        width: 48.5%;
+      }
+    }
+  }
+
+
+  .common-problem{
+    flex-wrap: wrap;
+
+    h3.title{
+      width: 100%;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .question-box{
+      width: 100%;
+
+      .accordion{
+
+        .accordion-header {
+          padding: 15px 20px;
+        }
+
+        .accordion-icon {
+          margin-right: 25px;
+
+          img{
+            width: 20px;
+          }
+        }
+
+        .accordion-content {
+          padding: 10px 30px 20px 30px;
+        }
+      }
+    }
+  }
+
+
+  .slogn-box2{
+    margin: 0 20px 60px 20px;
+  }
+
+  .submenu-box{
+    margin: 100px 10px 10px 10px;
+    padding: 80px 15px;
+    flex-wrap: wrap;
+
+    .menu{
+      order: 2;
+      width: 100%;
+
+      a{
+        display: block;
+        color: #F2F2F2;
+        font-size: 80px;
+        line-height: 96px;
+        font-weight: 900;
+        margin-bottom: 8px;
+
+        &:hover{
+          color: #F18724;
+        }
+      }
+    }
+
+    .sublogo{
+      width: 60%;
+      margin-bottom: 30px;
+    }
+  }
+
+
+  .footer{
+    flex-wrap: wrap;
+
+    h4.copyright{
+      width: 50%;
+      order: 1;
+      margin-right: 10px;
+    }
+
+    .share{
+      width: 100%;
+      order: 3;
+      margin: 20px 0 0 0;
+    }
+
+    .back-to-top{
+      width: 50%;
+      order: 2;
+    }
+  }
+
+}
+
+@media screen and (max-width:538px){
+
+  .content{
+    .card-content{
+      ppadding: 0;
+
+      .card{
+        width: 48%;
+      }
+    }
+  }
+}
+
+
+/* mobile =========================================== */
+@media screen and (max-width:414px){
+
+  .header{
+    padding: 0 10px;
+    padding-bottom: 60px;
+  }
+
+  .topbar{
+    flex-wrap: wrap;
+
+    li.menu{
+      display: none;
+    }
+    .menu-switch{
+      display: block;
+    }
+  }
+
+  .slogn-box{
+
+    h1{
+      font-size: 48px;
+      width: 80%;
+      line-height: 1.3;
+    }
+  }
+
+  .arrow-box{
+    justify-content: center;
+
+    img {
+      width: 33%;
+    }
+  }
+
+
+  .main-box{
+    display: block;
+    margin-bottom: 30px;
+
+    h2.sub-title-1{
+      width: 100%;
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
+    p.sub-title-2{
+      width: 100%;
+      font-size: 32px;
+      line-height: 1.2;
+    }
+  }
+
+  .spotligth-box{
+    flex-wrap: wrap;
+    margin: 60px 0;
+    padding: 0;
+
+    .item{
+      width: 100%;
+      padding: 40px 20px;
+      margin: 5px 0;
+
+      img{
+        width: 75px;
+      }
+
+      h3{
+        margin: 20px 0;
+      }
+    }
+  }
+
+  .feedback-box{
+    margin: 0;
+    flex-wrap: wrap;
+
+    .feedback-card{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .container{
+    padding: 80px 10px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+  }
+
+  .content{
+
+    h2{
+      font-size: 32px;
+      margin: 0 0 32px 0;
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    .card-content{
+      ppadding: 0;
+
+      .card{
+        width: 100%;
+      }
+    }
+  }
+
+  .common-problem{
+    margin: 80px 10px;
+    flex-wrap: wrap;
+
+    h3.title{
+      width: 100%;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .question-box{
+      width: 100%;
+
+      .accordion{
+
+        .accordion-header {
+          padding: 15px 20px;
+        }
+
+        .accordion-icon {
+          margin-right: 25px;
+
+          img{
+            width: 20px;
+          }
+        }
+
+        .accordion-content {
+          padding: 10px 30px 20px 30px;
+        }
+      }
+    }
+  }
+
+  .slogn-box2{
+    margin: 120px 10px;
+
+    h2{
+      font-size: 32px;
+      padding: 0;
+    }
+  }
+
+  .submenu-box{
+
+    .menu{
+
+      a{
+        font-size: 48px;
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }
+    }
+
+    .sublogo{
+      order: 1;
+      width: 280px;
+      margin-bottom: 30px;
+    }
+  }
+
+
+  .footer{
+    padding: 10px;
+  }
+
+}
